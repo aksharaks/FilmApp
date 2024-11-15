@@ -5,12 +5,12 @@ class ApiService {
   static const String apiKey = '2aa2986ee3daca01225f4bbc9f029ed2';
   static const String baseUrl = 'https://api.themoviedb.org/3';
 
-  // Fetch movies based on search query
+  
   static Future<List<Map<String, dynamic>>> searchMovies(String query) async {
-    // Encode the query to handle special characters
+    
     final encodedQuery = Uri.encodeQueryComponent(query);
 
-    // Construct the URL with the encoded query
+  
     final url = Uri.parse('$baseUrl/search/movie?api_key=$apiKey&query=$encodedQuery');
 
     try {

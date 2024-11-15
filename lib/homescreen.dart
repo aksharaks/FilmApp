@@ -65,11 +65,11 @@ class _HomescreenState extends State<Homescreen> {
     style: TextStyle(
       fontSize: 20.0,
       fontWeight: FontWeight.bold,
-      color: Colors.white, // Set the text color to white
+      color: Color.fromARGB(255, 214, 78, 78), 
     ),
   ),
   centerTitle: true,
-  backgroundColor: Colors.blue, // Set the AppBar background color
+  backgroundColor: Colors.blue, 
 ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
